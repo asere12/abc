@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CreateFormController">
+   <right>
+      <Pane prefHeight="452.0" prefWidth="207.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btn_confirm" layoutX="59.0" layoutY="420.0" mnemonicParsing="false" onMouseClicked="#add_item" text="Подтвердить" />
+            <TextField fx:id="textfiled_1" layoutX="29.0" layoutY="48.0" />
+            <Button fx:id="btn_back" layoutX="8.0" layoutY="8.0" mnemonicParsing="false" onMouseClicked="#back" text="&lt;-" />
+            <TextField fx:id="textfiled_2" layoutX="29.0" layoutY="90.0" />
+            <TextField fx:id="textfiled_3" layoutX="29.0" layoutY="135.0" />
+            <TextField fx:id="textfiled_4" layoutX="29.0" layoutY="177.0" />
+            <TextField fx:id="textfiled_5" layoutX="29.0" layoutY="217.0" />
+            <TextField fx:id="textfiled_6" layoutX="29.0" layoutY="261.0" />
+            <TextField fx:id="textfiled_7" layoutX="29.0" layoutY="301.0" />
+            <TextField fx:id="textfiled_8" layoutX="29.0" layoutY="341.0" />
+            <TextField fx:id="textfiled_9" layoutX="29.0" layoutY="383.0" />
+         </children>
+      </Pane>
+   </right>
+</BorderPane>
